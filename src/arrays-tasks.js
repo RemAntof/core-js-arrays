@@ -555,7 +555,6 @@ function propagateItemsByPositionIndex(arr) {
  *    shiftArray([10, 20, 30, 40, 50], -3) => [40, 50, 10, 20, 30]
  */
 function shiftArray(arr, n) {
-  console.log(`arr ${arr} n ${n}`);
   const { length } = arr;
   const n2 = n;
 
